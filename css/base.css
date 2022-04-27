@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 16px;
+}
+
+header,
+main,
+footer {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+header {
+  margin: 1rem auto;
+  border: 14px double gold;
+  padding: 0.5rem;
+  background-color: black;
+  color: white;
+  display: grid;
+  grid-template-columns: 200px 1fr;
+  align-items: center;
+}
+
+header img {
+  width: 100%;
+}
+
+header h1 {
+  margin: auto;
+}
